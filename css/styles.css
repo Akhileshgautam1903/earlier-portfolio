@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b262c;
+  color: #64dfdf;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1b262c;
+}
+
+.hr-1 {
+  border-style: none;
+  border-top: 1px solid #64dfdf;
+  position: relative;
+  bottom: 80px;
+  width: 60%;
+  margin: auto;
+}
+
+.hr-2 {
+  border-style: none;
+  border-top: 1px solid #64dfdf;
+  width: 60%;
+  margin: 100px auto;
+}
+
+.logo {
+  height: 80px;
+  width: 60px;
+  position: absolute;
+  left: 20px;
+  top: -80px;
+}
+
+.top-container {
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 250px;
+  border-bottom: 1px solid #64dfdf;
+}
+
+.middle-container {
+  position: relative;
+  top: -140px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border-radius: 10px;
+  border: 3px solid #64dfdf;
+  margin: 50px;
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img {
+  border-radius: 8px;
+}
+
+.card-1 h3,
+.card-2 h3,
+.card-3 h3 {
+  position: absolute;
+  padding: 3px 0 15px;
+  color: #1b262c;
+  width: 294px;
+  bottom: 0;
+  background-color: #64dfdf;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p {
+  color: #1b262c;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 300px;
+  background-color: #64dfdf;
+  border-radius: 8px;
+  height: 250px;
+  padding-top: 40%;
+  opacity: 0;
+  transition-duration: 800ms;
+}
+
+.card-1 p:hover,
+.card-2 p:hover,
+.card-3 p:hover,
+.card-1:hover,
+.card-2:hover,
+.card-3 :hover {
+  opacity: 1;
+}
+
+.about-me {
+  padding: 50px 10px;
+  color: #64dfdf;
+  width: 80%;
+  background-color: #1b262c;
+  margin: 0 auto 100px;
+  border-radius: 15px;
+  border: 2px solid #64dfdf;
+  line-height: 2rem;
+}
+
+.description {
+  width: 800px;
+  margin: 30px auto 10px;
+}
+
+.bottom-container {
+  background-color: #64dfdf;
+  color: #1b262c;
+  position: relative;
+  padding: 20px 5px 0;
+}
+
+.instagram,
+.linked-in,
+.twitter {
+  position: relative;
+  margin: 5px 20px;
+}
+
+.bottom-container h3 {
+  font-size: 2rem;
+}
+
+.copyright-msg {
+  margin: 20px 3px 5px;
+  position: relative;
+  right: 20px;
+}
+
+.copyright {
+  position: relative;
+  height: 38px;
+  width: 34px;
+  bottom: 38px;
+  left: 90px;
+}
+.skills,
+.hobbies {
+  background-color: #64dfdf;
+  color: #1b262c;
+  width: 400px;
+  margin: 50px 50px;
+  display: inline-block;
+  text-align: left;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+}
+
+.skills table,
+.hobbies table {
+  width: 90%;
+  margin: auto;
+}
+
+.icons {
+  text-align: right;
+  position: relative;
+  top: 10px;
+}
+
+.basketball,
+.magic,
+.book {
+  position: relative;
+  top: 10px;
+}
+
+.basketball {
+  right: 60px;
+}
+
+.magic {
+  right: 100px;
+}
+
+.book {
+  right: 20px;
+}
+
+.seprate {
+  border-style: none;
+  border-bottom: 1px solid #1b262c;
+  margin: 2px 0;
+}
